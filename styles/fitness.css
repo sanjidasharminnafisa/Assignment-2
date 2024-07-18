@@ -1,0 +1,171 @@
+/* Common Style */
+*{
+    background-color: #111111;
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.inter-font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Miama;
+    src: url(./Miama.ttf);
+}
+.miama-font{
+    font-family: Miama;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flex{
+    display: flex;
+}
+
+.extra-bold-font{
+    font-weight: bolder;
+}
+
+.gray{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Navigation bar */
+.top{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    justify-content: space-between;
+    padding: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+
+.nav-button{
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 3px 10px 3px 10px;
+}
+
+.home{
+    background-color: #E6533C;
+    border-radius: 46px;
+    text-decoration: none;
+}
+
+
+.orange-color{
+    color: #E6533C;
+    font-style: italic;
+}
+
+.burger{
+    display: none;
+}
+
+/* banner Section */
+.header-title{
+    font-size: 3em;
+}
+
+.button{
+    background-color: #E6533C;
+    border-radius: 46px;
+    text-decoration: none;
+    padding: 3px 10px 3px 10px;
+}
+
+.download-button{
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 46px;
+    padding: 3px 10px 3px 10px;
+    margin-left: 5px;
+}
+
+.banner-profile-section{
+    justify-content: center;
+}
+
+.absolute-500{
+    position: relative;
+    bottom: 300px;
+    left:
+}
+
+
+/* Change your habits section */
+
+/* Feature Cards */
+
+/* Run extra mile feature */
+
+/* BMI Table- challenge */
+
+/* BMI Form */
+
+/* Team */
+
+/* Footer: 2 sections */
+
+
+
+
+
+/* responsive media query */
+/* desktop only */
+@media screen and (min-width:992px)  {
+    .padding{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .banner{
+        padding: 2% 20% 0 10%;
+    }
+    .banner-text{
+        padding-right: 20%;
+    }
+    .banner-profile{
+        width: 100%;
+        
+    }
+}
+/* tablet only */
+@media screen and (min-width:576px) and (max-width:992px)  {
+    .banner-profile{
+        width: 50%;
+        
+    }
+    .banner{
+        flex-direction: column;
+    }
+}
+/* smartphone only */
+@media screen and (max-width:576px) {
+    .navbar{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .banner-profile{
+        width: 353px;
+        height: 588px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
