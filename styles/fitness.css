@@ -52,7 +52,6 @@ body{
     font-size: 2.5em;
 }
 
-
 /* Navigation bar */
 .top{
     justify-content: space-between;
@@ -94,17 +93,18 @@ body{
 }
 
 .button{
+    display: inline-block;
     background-color: #E6533C;
     border-radius: 46px;
     text-decoration: none;
-    padding: 3px 10px 3px 10px;
+    padding: 5px 20px 5px 20px;
 }
 
 .download-button{
     text-decoration: none;
     border: 2px solid white;
     border-radius: 46px;
-    padding: 3px 10px 3px 10px;
+    padding: 5px 20px 5px 20px;
     margin-left: 5px;
 }
 
@@ -155,6 +155,8 @@ body{
     border-radius: 50%;
     width: 50%;
 }
+
+/* Run extra mile feature */
 .run{
     width: 300px;
     border-radius: 18px;
@@ -166,17 +168,59 @@ body{
     margin: 1% 10% 1% 10%;
     border-radius: 18px;
 }
-
-/* Run extra mile feature */
-
+.join{
+    margin-top: 25px;
+}
 /* BMI Table- challenge */
+.bmi-title{
+
+}
 
 /* BMI Form */
 
 /* Team */
+.trainers{
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5% 15%;
+    padding: 2%;
+    border-radius: 15px;
+    gap: 20px;
+    background-color: #222222;
+}
+
+
+.trainer{
+    margin-bottom: -100px;
+}
+
+.trainer-img{
+    width: 100%;
+    border-radius: 15px;
+}
+.trainer-details{
+    position: relative;
+    bottom: 100px;
+    padding-left: 10px;
+}
+
+
 
 /* Footer: 2 sections */
-
+.fitness{
+    font-size: 3em;
+}
+.footer-branding{
+    
+}
+.footer-sections{
+    justify-content: space-around;
+}
+.get-started{
+    justify-content: space-between;
+}
+.start{
+    margin-right: 80px;
+}
 
 
 
@@ -214,6 +258,9 @@ body{
     .habits{
         grid-template-columns: repeat(2, 1fr);
     }
+    .trainers{
+        padding: 5% 5%;
+    }
 }
 /* smartphone only */
 @media screen and (max-width:576px) {
@@ -232,6 +279,10 @@ body{
     }
     .habits{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .trainers{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 5% 2%;
     }
 }
 
