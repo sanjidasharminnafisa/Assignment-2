@@ -35,7 +35,7 @@
                     <a href="#" class="download-button">Download App</a>
                 </div>
             </section> 
-            <section class="">
+            <section>
                 <div class="banner-profile-section flex">
                     <img src="./images/Images2.png" class="banner-profile" alt="">
                 </div>
@@ -101,56 +101,61 @@
                 <p class="gray">We believe fitness should be accessible to everyone, <br> everywhere, regardless of income or access to a gym. <br> With hundreds of professional workouts.</p>
                 <a href="#" class="button join">Join Now</a>
             </div>
-            <div>
+            <div class="phone-run">
                 <img class="run" src="images/run.jpg" alt="">
             </div>
         </section>
-        <section>
-            <div class="flex bmi-title">
-                <h2>BMI Calculator</h2>
-                <p class="gray">A BMI calculator determines Body Mass Index using height and weight to assess if a person is underweight, normal, or overweight.</p>
+        <!-- BMI -->
+        <section class="">
+            <div class="bmi">
+                <div class="bmi-title">
+                    <h2 class="bmi-head">BMI Calculator</h2>
+                    <p class="gray">A BMI calculator determines Body Mass Index using height and weight to assess <br> if a person is underweight, normal, or overweight.</p>
+                </div>
             </div>
         <!-- BMI Table -->
-            <div>
-                <h3>BMI Calculator Chart</h3>
-                <table>
-                    <th>BMI</th>
-                    <th>Weight Status</th>
-                    <tr>
-                        <td class="gray">Below 18.5</td>
-                        <td class="gray">Underweight</td>
-                    </tr>
-                    <tr>
-                        <td class="gray">18.5 - 24.9</td>
-                        <td class="gray">Healthy</td>
-                    </tr>
-                    <tr>
-                        <td class="gray">25.0 - 29.9</td>
-                        <td class="gray">Overweight</td>
-                    </tr>
-                    <tr>
-                        <td class="gray">30.0 - and Above</td>
-                        <td class="gray">Obese</td>
-                    </tr>
-                </table>
+            <div class="bmi-sec flex">
+                <div>
+                    <h3 class="bmi-sec-title">BMI Calculator Chart</h3>
+                    <table class="table">
+                        <th>BMI</th>
+                        <th>Weight Status</th>
+                        <tr>
+                            <td class="gray">Below 18.5</td>
+                            <td class="gray">Underweight</td>
+                        </tr>
+                        <tr>
+                            <td class="gray">18.5 - 24.9</td>
+                            <td class="gray">Healthy</td>
+                        </tr>
+                        <tr>
+                            <td class="gray">25.0 - 29.9</td>
+                            <td class="gray">Overweight</td>
+                        </tr>
+                        <tr>
+                            <td class="gray">30.0 - and Above</td>
+                            <td class="gray">Obese</td>
+                        </tr>
+                    </table>
+                </div>
+                        <!-- BMI Form -->
+                        <div>
+                <h3 class="bmi-sec-title">Calculate your BMI</h3>
+                <p class="gray">A BMI calculator determines Body Mass Index using height and weight to assess <br> if a person is underweight, normal, or overweight.</p>
+                <div>
+                <input class="bg-gray input-padding input-border" type="text" placeholder="Height/cm">
+                <input class="bg-gray input-padding input-border" type="text" placeholder="Weight/kg">
+                </div>
+                <div>
+                <input class="bg-gray input-padding input-border" type="text" placeholder="Age">
+                <input class="bg-gray input-padding input-border" type="text" placeholder="Sex">
+                </div>
+                <div>
+                <input class="bg-gray activity-padding input-border" type="text" placeholder="Select an activity factor">
+                </div>
+                <a href="#" class="button calculate">Calculate</a>
+                        </div>
             </div>
-        <!-- BMI Form -->
-        <div>
-            <h3>Calculate your BMI</h3>
-            <p class="gray">A BMI calculator determines Body Mass Index using height and weight to assess if a person is underweight, normal, or overweight.</p>
-            <div>
-            <input type="number" placeholder="Height/cm">
-            <input type="number" placeholder="Weight/kg">
-            </div>
-            <div>
-            <input type="number" placeholder="Age">
-            <input type="text" placeholder="Sex">
-            </div>
-            <div>
-            <input type="text" placeholder="Select an activity factor">
-            </div>
-            <a href="#" class="home">Calculate</a>
-        </div>
         </section>
         <!-- Team -->
         <section>
@@ -230,7 +235,7 @@
                 </div>
             </div>
         </section>
-        <hr>
+        <hr class="line">
         <!-- Footer Section 2 -->
         <section class="center">
             <p class="gray">All right reserved @Fitness 2024</p>
