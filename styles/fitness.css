@@ -189,7 +189,10 @@ body{
 }
 
 /* BMI Table- challenge */
-.table th,td{
+.table {
+    border-collapse: collapse;
+}
+th,td{
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 2px 70px 2px 5px;
 }
